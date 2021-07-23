@@ -49,7 +49,7 @@ int lower_bound(vector<int> arr, int left, int right, int val)
     }
     else
     {
-        return left;
+        return right;
     }
 }
 
