@@ -1,3 +1,8 @@
+/**
+ *    author:  Alpesh Jamgade
+ *    created:  21.07.2021 21:24:31       
+**/
+
 #include <bits/stdc++.h>
 #define lcm(a, b) ((a * b) / __gcd(a, b))
 
