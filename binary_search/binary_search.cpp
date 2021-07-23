@@ -32,6 +32,48 @@ int binary_search(vector<int> arr, int left, int right, int val)
     }
 }
 
+int lower_bound(vector<int> arr, int left, int right, int val)
+{
+    if (left < right)
+    {
+        int mid = left - (left - right) / 2;
+        int middle_elem = arr[mid];
+        if (middle_elem >= val)
+        {
+            return lower_bound(arr, left, mid, val);
+        }
+        else
+        {
+            return lower_bound(arr, mid + 1, right, val);
+        }
+    }
+    else
+    {
+        return left;
+    }
+}
+
+int upper_bound(vector<int> arr, int left, int right, int val)
+{
+    if (left < right)
+    {
+        int mid = left - (left - right) / 2;
+        int middle_elem = arr[mid];
+        if (middle_elem <= val)
+        {
+            return upper_bound(arr, mid + 1, right, val);
+        }
+        else
+        {
+            return upper_bound(arr, left, mid, val);
+        }
+    }
+    else
+    {
+        return left;
+    }
+}
+
 int main()
 {
     int n, m;
