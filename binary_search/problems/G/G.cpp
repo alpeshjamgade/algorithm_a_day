@@ -1,3 +1,12 @@
+/**
+ *    author:  Alpesh Jamgade
+ *    created:  26.07.2021 00:08:19  
+ *    solution: for each of the element x in the middle array 
+ *              check the number of elements less than x in first array and number of elements greater than x in third array
+ *    algorithm: Binary Search
+ *    complexity: O(n)*O(log(n)) = O(n*log(n))       
+**/
+
 #include <bits/stdc++.h>
 
 #define ll long long
