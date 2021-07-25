@@ -1,6 +1,10 @@
 /**
  *    author:  Alpesh Jamgade
- *    created:  21.07.2021 21:26:17       
+ *    created:  21.07.2021 21:26:17   
+ *    solution: Just apply binary search (upper bound) on the numbers from 1 to INT_MAX 
+ *              and check for each mid if the number of terms divisible by mid == N or not
+ *    algorithm: Binary Search
+ *    complexity: O(log(n))      
 **/
 
 #include <bits/stdc++.h>
