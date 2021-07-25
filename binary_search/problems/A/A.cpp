@@ -1,7 +1,14 @@
 /**
  *    author:  Alpesh Jamgade
- *    created:  21.07.2021 21:23:54       
-**/
+ *    created:  21.07.2021 21:23:54    
+ *     
+ *    solution : Here we need to return the position at which the given number H can be put in the given array(sorted),
+ *               We can calculate this position using binary_search (modified to find upper bound) or just use STL function upper_bound();
+ *               this can be easily answered by knowing how many numbers are there which are less than or equal to H.
+ *
+ *    algorithm : Binary Search
+ *    complexity : O(log(n))
+ **/
 
 #include <bits/stdc++.h>
 
@@ -59,3 +66,4 @@ int main()
     cout << solve2(heights, H) << '\n';
     return 0;
 }
+
