@@ -1,6 +1,13 @@
 /**
  *    author:  Alpesh Jamgade
- *    created:  21.07.2021 21:24:17       
+ *    created:  21.07.2021 21:24:17    
+ *  
+ *    solution: [Trivial] Simply check if the element is present in the array or not;
+ * 
+ *    algorithm: Binary Search
+ * 
+ *    complexity: O(log(n))
+ *    
 **/
 
 #include <bits/stdc++.h>
