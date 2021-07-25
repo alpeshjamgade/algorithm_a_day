@@ -1,6 +1,12 @@
 /**
  *    author:  Alpesh Jamgade
- *    created:  21.07.2021 21:24:26       
+ *    created:  21.07.2021 21:24:26
+ * 
+ * 
+ *    solution: the number of occurences of an element in a given sorted array 
+ *                = index of last occurence of element - index of first occurence of element
+ *    algorithm: Binary Search
+ *    complexity: O(log(n))        
 **/
 
 #include <bits/stdc++.h>
