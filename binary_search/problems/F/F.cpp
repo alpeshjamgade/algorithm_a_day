@@ -1,3 +1,17 @@
+/**
+ *    author:  Alpesh Jamgade
+ *    created:  25.07.2021 23:45:13     
+ *    
+ *    solution : Considering the subarray's with only one element, the minimum sub-array sum achievable out of k sub-arrays formed, is max(arr.begin(), arr.end());
+ *               Also, the maximum sub-array sum out of K sub-array is sum(arr.begin(), arr.end()) where k <= 1;
+ *               
+ *              So, now the solution is simple, we just need to apply binary search between these two extremas and check for each mid if there are less or equal to k;
+ *              In this way by decreasing the total subarray's count (<=k) we can acheiven minimum possible maximum subarray sum
+ *    
+ *    algorithm : Binary Search 
+ *    complexity : O(log(n)) [for binary search] * O(n) [for check() function] => O(n*log(n))
+**/
+
 #include <bits/stdc++.h>
 #define ll long long
 
